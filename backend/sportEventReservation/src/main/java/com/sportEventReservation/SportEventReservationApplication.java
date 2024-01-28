@@ -28,7 +28,7 @@ public class SportEventReservationApplication {
 				.eventTime(InstantProvider.fromFormatted("2024-12-24 22:00"))
 				.registrationDeadline(InstantProvider.fromFormatted("2024-12-24 22:00"))
 				.description("event desc")
-				.maxParticipants(200L)
+				.maxParticipants(0L)
 				.sportEventType(SportEventTypeDto.valueOf("HANDBALL"))
 				.sportEventAddress(UUID.randomUUID())
 				.build();
